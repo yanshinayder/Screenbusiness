@@ -1,0 +1,33 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfmrMy = class(TForm)
+    bntMy: TButton;
+    Edit1: TEdit;
+    procedure bntMyClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmrMy: TfmrMy;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfmrMy.bntMyClick(Sender: TObject);
+begin
+  edit1.Clear;
+  edit1.Color:=clBlue;
+end;
+
+end.

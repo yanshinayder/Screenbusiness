@@ -1,0 +1,33 @@
+object fmrMy: TfmrMy
+  Left = 0
+  Top = 0
+  Caption = 'fmrMy'
+  ClientHeight = 538
+  ClientWidth = 977
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object bntMy: TButton
+    Left = 40
+    Top = 32
+    Width = 75
+    Height = 25
+    Caption = 'bntMy'
+    TabOrder = 0
+    OnClick = bntMyClick
+  end
+  object Edit1: TEdit
+    Left = 336
+    Top = 34
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+end
